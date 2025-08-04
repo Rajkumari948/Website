@@ -27,17 +27,17 @@ body {
 
 .left h2 {
   margin-top: 10px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .left .title {
   font-size: 14px;
   color: #3498db;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .left .section {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .left .section h3 {
