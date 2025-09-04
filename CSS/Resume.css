@@ -1,0 +1,97 @@
+/* General */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+}
+
+/* Main Container */
+.resume-container {
+  display: flex;
+  width: 900px;
+  margin: 30px auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Left Side */
+.left-side {
+  width: 30%;
+  background: #fff;
+  padding: 25px;
+  text-align: center;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 60%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.job-title {
+  font-size: 15px;
+  color: #383838;
+  margin-bottom: 20px;
+}
+
+.section {
+  text-align: left;
+  margin-top: 25px;
+}
+
+.section h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.section p, .section li {
+  font-size: 14px;
+  color: #202020;
+  line-height: 1.6;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li::before {
+  content: "• ";
+  color: #0f0f0f;
+  font-weight: bold;
+}
+
+.interests {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Right Side */
+.right-side {
+  width: 60%;
+  background: #eaf2f8;   /* Light Blue Background */
+  padding: 25px;
+}
+
+/* Headings inside Right side */
+.right-side .section h3 {
+  font-size: 20px;
+  background: #fdfdfd;
+  padding: 8px 12px;
+  margin: -20px -20px 15px -20px;  /* heading ko box ke top tak phaila diya */
+  border-radius: 10px 10px 0 0;
+  text-transform: uppercase;
+  color: #333;
+}
+
+/* Education & Experience Content */
+.edu h4, .exp h4 {
+  margin: 8px 0 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
