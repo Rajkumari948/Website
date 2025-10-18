@@ -1,19 +1,11 @@
-:root{
-  --bg:#0b0b0b;
-  --panel:#2f2b36;
-  --muted:#9fa0a7;
-  --accent:#f36992; /* purple banner */
-  --blue:#0a3ef0;   /* top strip */
-  --card:#2b2b3a;
-  --text:#e8e8ee;
-  --sidebar:#2e2940;
-}
 body{
-  font-family: Arial,sans-serif;
+    font-family: Arial,sans-serif;
     margin: 0%;
     background-color: black;
     
 }
+
+
 .top{
 
     background-color: blue;
@@ -78,7 +70,7 @@ body{
     width: 137vh;
     height: 7vh;
     margin-left: 60px;
-    background-color: rgb(224, 115, 161); 
+    background-color: rgb(175, 100, 245); 
 }
 .small h1{
     font-size: 22px;
@@ -113,7 +105,7 @@ body{
 }
 .large {
     width: 50vh;
-    height: 50vh;
+    height: 42vh;
     margin-right: 0px;
     background-color: rgb(48, 48, 99);
 }
@@ -280,7 +272,7 @@ body{
     
     
 }
-.stop3{
+.s{
     display: flex;
     justify-content: center;
 }
